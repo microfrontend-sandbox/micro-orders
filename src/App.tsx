@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 import { createBrowserHistory, History } from 'history';
 import './App.css';
 import { Route, Router, Switch } from "react-router-dom";
-import { OrderSummary } from "./Summary/Summary";
-import { OrderDetails } from "./Details/Details";
+import { OrderSummary } from "./OrderSummary/OrderSummary";
+import { OrderDetails } from "./OrderDetails/OrderDetails";
 
 const defaultHistory = createBrowserHistory();
 
